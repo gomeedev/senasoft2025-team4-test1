@@ -17,11 +17,7 @@ function App() {
         data: { user },
       } = await supabase.auth.getUser();
       if (user) {
-        await supabase
-          .from("users")
-          .select("role")
-          .eq("id", user.id)
-          .single();
+        await supabase.from("users").select("role").eq("id", user.id).single();
       }
       setLoading(false);
     };
