@@ -99,6 +99,16 @@ SUPABASE_URL=https://your_project.supabase.co
 SUPABASE_ANON_KEY=your_anon_key_here
 ```
 
+### Useful Links
+
+Here are some useful links for understanding and working with the technologies used in this project:
+
+- [Model Context Protocol (MCP) Introduction](https://modelcontextprotocol.io/docs/getting-started/intro)
+- [Supabase MCP Documentation](https://supabase.com/docs/guides/getting-started/mcp?queryGroups=os&os=windows)
+- [Supabase MCP-server Documentation](https://supabase.com/blog/mcp-server)
+- [Chrome DevTools MCP Documentation](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+- [Vibe Check MCP Documentation](https://smithery.ai/server/@PV-Bhat/vibe-check-mcp-server)
+
 > [!IMPORTANT]  
 > Use the same ```SUPABASE_URL```  in both files.  
 > For frontend use only the  ```anon key``` – Avoid using the ```service_role key```.

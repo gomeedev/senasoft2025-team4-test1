@@ -22,8 +22,8 @@ client/build/
 # --- Sistema - IDE ---
 .DS_Store
 .idea/
-.vscode/
-
+.vscode/*
+!.vscode/mcp.json
 
 # Readmes privados
 stack tecnológico.md
