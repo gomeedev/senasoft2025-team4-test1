@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'api_senasoft2025.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'senasoft2025_team4_test1',
-        'USER' : 'root',
-        'PASSWORD' : '0202',
-        'HOST' : 'localhost',
-        'PORT' : '3307'
+        'NAME': 'senasoft',
+        'USER': 'root',
+        'PASSWORD': '',  # si no tienes contraseña
+        'HOST': '127.0.0.1',  # NO 'localhost'
+        'PORT': '3306',
     }
 }
 
