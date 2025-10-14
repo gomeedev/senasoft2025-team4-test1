@@ -1,0 +1,33 @@
+{
+	"servers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["chrome-devtools-mcp@latest"],
+      "type": "stdio"
+    },
+    "vibe-check-mcp-server": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@PV-Bhat/vibe-check-mcp-server",
+        "--key",
+        "<llave-de-api-personal>",	
+      ],
+      "type": "stdio"
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+		"--access-token",
+		"<personal-access-token>"
+      ]
+    }
+  },
+	"inputs": []
+}
